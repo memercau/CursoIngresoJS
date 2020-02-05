@@ -6,7 +6,7 @@ function SacarResto()
 {
   var dividiendo = parseInt(document.getElementById("numeroDividendo").value);
   var divisor = parseInt(document.getElementById("numeroDivisor").value);
-  var resultadodiv;
+  var resultado;
   var resto;
 
   resultado = divisor / dividiendo
