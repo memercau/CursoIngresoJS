@@ -6,11 +6,9 @@ function SacarResto()
 {
   var dividiendo = parseInt(document.getElementById("numeroDividendo").value);
   var divisor = parseInt(document.getElementById("numeroDivisor").value);
-  var resultado;
   var resto;
 
-  resultado = divisor / dividiendo
-  resto = (resultado %100)
+  resto = dividiendo % divisor
 
   alert("el resto es " + resto);
 
