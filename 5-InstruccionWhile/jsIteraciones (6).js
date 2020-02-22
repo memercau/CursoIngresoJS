@@ -4,7 +4,7 @@ function mostrar() {
   var acumulador = 0;
   var promedio;
 
-  do {
+  while (respuesta==si) {
     numeros = prompt("Ingrese un Numero");
     numeros = parseInt(numeros);
 
